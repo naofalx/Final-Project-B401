@@ -1,0 +1,592 @@
+// halaman utama
+.navbar-brand {
+  img {
+    max-width: 426px;
+    padding: 25px;
+  }
+}
+
+.footer-brand {
+  img {
+    max-width: 426px;
+  }
+}
+
+.nav-link {
+  padding-top: 35px;
+  font-family: "Spartan", sans-serif;
+  font-size: 24px;
+}
+
+.carousel-caption {
+  h5 {
+    font-family: "Questrial", sans-serif;
+  }
+  p {
+    font-family: "PT Serif", serif;
+  }
+}
+
+.home-catalog {
+  margin-top: 50px;
+  text-align: center;
+  .card {
+    background: none;
+    border: none;
+  }
+  img {
+    max-height: 338px;
+  }
+  h4 {
+    font-family: "PT Serif", serif;
+    font-size: 14px;
+    color: #646464;
+  }
+  h5 {
+    font-family: "PT Serif", serif;
+    font-size: 36px;
+  }
+  p {
+    font-family: "PT Sans", serif;
+    font-size: 34px;
+    color: #e48826;
+  }
+}
+
+.home-pembatas {
+  height: 120px;
+  background: #585b56;
+}
+
+.footer {
+  .kolom-2 {
+    margin-top: 35px;
+    .kolom-2-text {
+      margin-top: 30px;
+    }
+  }
+  .footer-text {
+    .kolom-1 {
+      padding: 24px;
+      margin-left: 6px;
+    }
+    a {
+      text-decoration: none;
+      color: #939393;
+    }
+    font-family: "PT Serif", serif;
+    color: #939393;
+  }
+  .header-footer {
+    h1 {
+      font-family: "PT Serif", serif;
+      font-weight: 500;
+      font-size: 24px;
+      color: #ffffff;
+    }
+  }
+
+  background: #1b2326;
+  padding: 50px;
+}
+
+.footer-2 {
+  border-top: 1px solid #424242;
+  background-color: #1b2326;
+
+  p {
+    color: #939393;
+  }
+}
+
+// halaman login
+.login-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: #afb6c0;
+  .login-header {
+    padding-top: 50px;
+    font-family: "Spartan", sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+  }
+  .login-text {
+    margin-top: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+  }
+  .form-group {
+    padding: 45px;
+    .row {
+      padding: 5px;
+    }
+    .btn-login {
+      font-family: "Open Sans", sans-serif;
+      font-size: 18px;
+      color: #ffffff;
+      background-color: #000000;
+      border: none;
+      height: 50px;
+      &:hover {
+        text-decoration: none;
+        background-color: #767676;
+      }
+    }
+  }
+  .btn-register {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    width: 164px;
+    height: 55px;
+    &:hover {
+      text-decoration: none;
+      background-color: #767676;
+    }
+  }
+}
+
+// halaman register
+.register-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: #afb6c0;
+  .register-header {
+    margin: 20px;
+    font-family: "Spartan", sans-serif;
+    font-size: 26px;
+    color: #ffffff;
+  }
+  .register-text {
+    margin: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .salutation-text {
+    margin: 20px;
+    font-family: "Spartan", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  .salutation-form {
+    margin: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #000000;
+  }
+  .form-group {
+    margin: 20px;
+    .row {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+  .btn-register {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin-left: 30px;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    width: 420px;
+    height: 50px;
+    &:hover {
+      text-decoration: none;
+      background-color: #767676;
+    }
+  }
+}
+
+//catalog
+
+// details
+.detail {
+  nav {
+    margin-top: 16px;
+  }
+  .breadcrumb {
+    .breadcrumb-item {
+      a {
+        text-decoration: none;
+        color: #000000;
+        font-family: "Spartan", sans-serif;
+      }
+    }
+  }
+
+  .details-catalog {
+    margin-top: auto;
+    .card {
+      background: none;
+      border: none;
+    }
+  }
+
+  .text-1 {
+    font-family: "PT Serif", serif;
+    font-size: 14px;
+    color: #989898;
+  }
+
+  .text-2 {
+    font-family: "PT Serif", serif;
+    font-size: 36px;
+  }
+
+  .text-3 {
+    font-family: "PT Serif", serif;
+    font-size: 18px;
+    color: #4f4f4f;
+  }
+
+  .text-harga {
+    font-family: "PT Sans", serif;
+    font-size: 34px;
+    color: #e48826;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .related-text {
+    font-family: "PT Serif", sans-serif;
+    font-size: 24px;
+  }
+
+  .related-products {
+    text-align: center;
+    .card {
+      background: none;
+      border: none;
+    }
+    img {
+      max-width: 398px;
+    }
+    h4 {
+      font-family: "PT Serif", serif;
+      font-size: 14px;
+      color: #646464;
+    }
+    h5 {
+      font-family: "PT Serif", serif;
+      font-size: 28px;
+    }
+    p {
+      font-family: "PT Sans", serif;
+      font-size: 24px;
+      color: #e48826;
+    }
+  }
+
+  .buttons {
+    margin-top: 15px;
+    padding: 0;
+    display: flex;
+    .cart-button {
+      position: relative;
+      outline: 0;
+      background-color: #e48826;
+      font-family: "Fjalla One", sans-serif;
+      color: #fff;
+      border: none;
+      height: 48px;
+      width: 200px;
+      padding: 10px;
+      border-radius: 10px;
+      line-height: 0px;
+      overflow: hidden;
+      cursor: pointer;
+      &:focus {
+        outline: none !important;
+      }
+      .fa-shopping-cart {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: -20%;
+        font-size: 1.8em;
+        transform: translate(-50%, -50%);
+      }
+      .fa-square {
+        position: absolute;
+        z-index: 1;
+        top: -20%;
+        left: 53%;
+        font-size: 0.8em;
+        transform: translate(-50%, -50%);
+      }
+      span {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        color: #fff;
+        transform: translate(-50%, -50%);
+        .added {
+          opacity: 0;
+        }
+      }
+    }
+    .cart-button.clicked {
+      .fa-shopping-cart {
+        animation: cart 2s ease-in forwards;
+      }
+      .fa-square {
+        animation: box 2s ease-in forwards;
+      }
+      span {
+        .add-to-cart {
+          animation: addcart 2s ease-in forwards;
+        }
+        .added {
+          animation: added 2s ease-in forwards;
+        }
+      }
+    }
+    @keyframes cart {
+      0% {
+        left: -10%;
+      }
+
+      40%,
+      60% {
+        left: 50%;
+      }
+
+      100% {
+        left: 110%;
+      }
+    }
+
+    @keyframes box {
+      0%,
+      40% {
+        top: -20%;
+      }
+
+      60% {
+        top: 36%;
+        left: 53%;
+      }
+
+      100% {
+        top: 40%;
+        left: 112%;
+      }
+    }
+
+    @keyframes addcart {
+      0%,
+      30% {
+        opacity: 1;
+      }
+
+      30%,
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes added {
+      0%,
+      80% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+//cart
+.shopping-cart {
+  margin: auto;
+  min-height: 100vh;
+  vertical-align: middle;
+  display: flex;
+  font-family: "PT Serif", sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  .title {
+    margin-bottom: 5vh;
+  }
+  .card {
+    margin: auto;
+    max-width: 950px;
+    width: 90%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1rem;
+    border: transparent;
+  }
+  @media (max-width: 767px) {
+    .card {
+      margin: 3vh auto;
+    }
+  }
+  .cart {
+    background-color: #fff;
+    padding: 4vh 5vh;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+  }
+  @media (max-width: 767px) {
+    .cart {
+      padding: 4vh;
+      border-bottom-left-radius: unset;
+      border-top-right-radius: 1rem;
+    }
+  }
+  .summary {
+    background-color: #ddd;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 4vh;
+    color: rgb(65, 65, 65);
+  }
+  @media (max-width: 767px) {
+    .summary {
+      border-top-right-radius: unset;
+      border-bottom-left-radius: 1rem;
+    }
+  }
+  .summary {
+    background-color: #ddd;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 4vh;
+    color: rgb(65, 65, 65);
+  }
+
+  @media (max-width: 767px) {
+    .summary {
+      border-top-right-radius: unset;
+      border-bottom-left-radius: 1rem;
+    }
+  }
+
+  .summary .col-2 {
+    padding: 0;
+  }
+
+  .summary .col-10 {
+    padding: 0;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  .title b {
+    font-size: 1.5rem;
+  }
+
+  .main {
+    margin: 0;
+    padding: 2vh 0;
+    width: 100%;
+  }
+
+  .col-2,
+  .col {
+    padding: 0 1vh;
+  }
+
+  a {
+    padding: 0 1vh;
+  }
+
+  .close {
+    margin-left: auto;
+    font-size: 0.7rem;
+  }
+
+  img {
+    width: 3.5rem;
+  }
+
+  .back-to-shop {
+    margin-top: 4.5rem;
+  }
+
+  h5 {
+    margin-top: 4vh;
+  }
+
+  hr {
+    margin-top: 1.25rem;
+  }
+
+  form {
+    padding: 2vh 0;
+  }
+
+  select {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1.5vh 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+  }
+
+  input {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 1vh;
+    margin-bottom: 4vh;
+    outline: none;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+  }
+
+  input:focus::-webkit-input-placeholder {
+    color: transparent;
+  }
+
+  .btn {
+    background-color: #000;
+    border-color: #000;
+    color: white;
+    width: 100%;
+    font-size: 0.7rem;
+    margin-top: 4vh;
+    padding: 1vh;
+    border-radius: 0;
+    &:focus {
+      box-shadow: none;
+      outline: none;
+      box-shadow: none;
+      color: white;
+      -webkit-box-shadow: none;
+      -webkit-user-select: none;
+      transition: none;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  a {
+    color: black;
+    &:hover {
+      color: black;
+      text-decoration: none;
+    }
+  }
+
+  #code {
+    background-image: linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0.253),
+        rgba(255, 255, 255, 0.185)
+      ),
+      url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+  }
+}
